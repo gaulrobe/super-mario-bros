@@ -1,7 +1,6 @@
-mario = argument[0];
-enemy = argument[1];
+current_mario = argument[0];
+enemy_hit = argument[1];
 
-if (enemy != noone) {
-	mario.state = states.dead;
-	//mario.state = clamp(mario.state--, states.dead, states.invincible);
+if (enemy_hit != noone) {
+	current_mario.state = states.dead;
 }

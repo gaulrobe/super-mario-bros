@@ -1,16 +1,16 @@
-mario = argument[0];
-enemy = argument[1];
+current_mario = argument[0];
+enemy_hit = argument[1];
 
-if (enemy != noone) {
-	if (mario.y < enemy.y) { // Kill enemy if Mario stomps from above
-		with (enemy) {
-			audio_play_sound(sound_stomp, 0, false);
+if (enemy_hit != noone) {
+	if (current_mario.y < enemy_hit.y) { // Kill enemy if Mario stomps from above
+		with (enemy_hit) {
+			audio_play_sound(stomp, 0, false);
 			instance_destroy();
 		}
 	}
 	else { // Mario loses a state
-		with (mario) {
-			mario.state = clamp(mario.state--, states.dead, states.invincible);	
+		with (current_mario) {
+			state = states.dead;
 		}
 	}
 }

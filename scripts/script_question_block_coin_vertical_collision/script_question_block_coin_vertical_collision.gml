@@ -1,14 +1,14 @@
-mario = argument[0];
-question_block = argument[1];
+current_mario = argument[0];
+question_block_hit = argument[1];
 
-if (question_block != noone) {
-	if (mario.y > question_block.y) { // Only if Mario hits block from below
-		with (question_block) {
+if (question_block_hit != noone) {
+	if (current_mario.y > question_block_hit.y) { // Only if Mario hits block from below
+		with (question_block_hit) {
 			if (!done) {
-				sprite_index = sprite_question_block_opened;
-				instance_create_layer(x, y - 20, "PlayerLayer", object_coin);
-				audio_play_sound(sound_coin, 0, false);
-				object_controller.coins++;
+				sprite_index = question_block_opened;
+				instance_create_layer(x, y - 20, "PlayerLayer", coin_obj);
+				audio_play_sound(coin_pickup, 0, false);
+				controller.coins++;
 			}
 
 			done = true;
