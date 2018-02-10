@@ -47,6 +47,7 @@ else {
 
 	// Collisions
 	register_tilemap_collision(self, collision_tilemap);
+	register_collision(self, object_only_collision);
 	register_collision(self, question_block_coin, question_block_coin_vertical_collision);
 	register_collision(self, question_block_mushroom, question_block_mushroom_vertical_collision);
 	register_collision(self, brick_block, hit_block);

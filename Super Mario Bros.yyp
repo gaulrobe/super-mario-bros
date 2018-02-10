@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "236b0bef-7ad8-4e9a-8f39-7f2be9f26b39",
+            "Value": {
+                "id": "80ad005c-b094-4580-84c7-e241a9ae3fa6",
+                "resourcePath": "objects\\object_only_collision\\object_only_collision.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "31f8dbfe-a2c1-4726-be4a-2882e69c9a3f",
             "Value": {
                 "id": "38647839-5d98-4d58-b007-90c85b9bc8be",
