@@ -17,3 +17,4 @@ mario_sprite = mario;
 mario_running_sprite = mario_running;
 
 death_sound = false;
+just_got_hit = false;

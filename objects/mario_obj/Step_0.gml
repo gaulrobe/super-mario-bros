@@ -17,8 +17,6 @@ if (vsp == 0) {
 
 vsp = vsp + grav;
 
-debug_text(state);
-
 if (state == states.dead) {
 	if (!death_sound) {
 		audio_play_sound(mario_dies, 0, false);
@@ -27,9 +25,6 @@ if (state == states.dead) {
 	sprite_index = mario_dead;
 }
 else {
-	// State management
-	mario_state(self);
-
 	// Handle jumping
 	if (on_floor and key_jump) {
 		audio_play_sound(jump_sound, 0, false);
@@ -53,7 +48,13 @@ else {
 	register_collision(self, question_block_coin, question_block_coin_vertical_collision);
 	register_collision(self, question_block_mushroom, question_block_mushroom_vertical_collision);
 	register_collision(self, brick_block, hit_block);
-	register_collision(self, enemy_base, enemy_vertical_collision, enemy_horizontal_collision);
+	
+	if (!just_got_hit) {
+		register_collision(self, enemy_base, enemy_vertical_collision, enemy_horizontal_collision);
+	}
+	
+	// State management
+	mario_state(self);
 }
 
 // Where should sprite be now?

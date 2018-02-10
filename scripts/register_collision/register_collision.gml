@@ -22,7 +22,7 @@ if (instance_exists(object_doing_colliding) and instance_exists(object_colliding
 if (instance_exists(object_doing_colliding) and instance_exists(object_colliding_into)) {
 	// Horizontal collision
 	if (place_meeting(object_doing_colliding.x + object_doing_colliding.hsp, object_doing_colliding.y, object_colliding_into)) {
-		while (!place_meeting(object_doing_colliding.x + sign(hsp), object_doing_colliding.y, object_colliding_into)) {
+		while (!place_meeting(object_doing_colliding.x + sign(object_doing_colliding.hsp), object_doing_colliding.y, object_colliding_into)) {
 			object_doing_colliding.x += sign(object_doing_colliding.hsp);
 		}
 	
