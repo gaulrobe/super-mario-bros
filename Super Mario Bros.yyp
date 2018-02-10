@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2a41c3a5-af0c-4873-bbe1-9d46982d3ee0",
+            "Value": {
+                "id": "8bf72b6f-6bb4-412f-86a6-353f4339f23e",
+                "resourcePath": "scripts\\mario_lose_state\\mario_lose_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "31f8dbfe-a2c1-4726-be4a-2882e69c9a3f",
             "Value": {
                 "id": "38647839-5d98-4d58-b007-90c85b9bc8be",
@@ -793,7 +801,8 @@
         "498de6d2-7f02-48bc-ad0c-1d4f92fa07fe",
         "a3f9ee3c-063a-489e-b9ab-fb8b7ebf1662",
         "e4009219-6e59-4e26-a917-e4abe5f0ba53",
-        "c13840c6-53eb-4891-a813-311114b53ce4"
+        "c13840c6-53eb-4891-a813-311114b53ce4",
+        "2a41c3a5-af0c-4873-bbe1-9d46982d3ee0"
     ],
     "tutorial": ""
 }

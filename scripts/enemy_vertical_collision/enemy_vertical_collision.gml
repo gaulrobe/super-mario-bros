@@ -10,7 +10,7 @@ if (enemy_hit != noone) {
 	}
 	else { // Mario loses a state
 		with (current_mario) {
-			state = states.dead;
+			mario_lose_state(self);
 		}
 	}
 }

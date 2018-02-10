@@ -17,6 +17,8 @@ if (vsp == 0) {
 
 vsp = vsp + grav;
 
+debug_text(state);
+
 if (state == states.dead) {
 	if (!death_sound) {
 		audio_play_sound(mario_dies, 0, false);
