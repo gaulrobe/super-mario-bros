@@ -2,14 +2,14 @@ object_doing_colliding = argument[0];
 collision_tilemap = argument[1];
 
 // Vertical collision
-if (object_doing_colliding.vsp > 0) {
+if (object_doing_colliding.vsp >= 0) {
 	bounding_box_side = object_doing_colliding.bbox_bottom;
 }
 else {
 	bounding_box_side = object_doing_colliding.bbox_top;	
 }
 
-if (tilemap_get_at_pixel(collision_tilemap, object_doing_colliding.bbox_left, bounding_box_side + round(object_doing_colliding.vsp)) != 0 || tilemap_get_at_pixel(collision_tilemap, object_doing_colliding.bbox_right, bounding_box_side + round(object_doing_colliding.vsp) )) {
+if (tilemap_get_at_pixel(collision_tilemap, object_doing_colliding.bbox_left, bounding_box_side + round(object_doing_colliding.vsp)) > 0 || tilemap_get_at_pixel(collision_tilemap, object_doing_colliding.bbox_right, bounding_box_side + round(object_doing_colliding.vsp) > 0)) {
 	if (object_doing_colliding.vsp > 0) {
 		object_doing_colliding.y = object_doing_colliding.y - (object_doing_colliding.y % 16) + 15 - (object_doing_colliding.bbox_bottom - object_doing_colliding.y);
 	}
@@ -27,7 +27,7 @@ else {
 	bounding_box_side = object_doing_colliding.bbox_left;
 }
 
-if (tilemap_get_at_pixel(collision_tilemap, bounding_box_side + object_doing_colliding.hsp, object_doing_colliding.bbox_top) != 0 || tilemap_get_at_pixel(collision_tilemap, bounding_box_side + object_doing_colliding.hsp, object_doing_colliding.bbox_bottom)) {
+if (tilemap_get_at_pixel(collision_tilemap, bounding_box_side + object_doing_colliding.hsp, object_doing_colliding.bbox_top) != 0 || tilemap_get_at_pixel(collision_tilemap, bounding_box_side + object_doing_colliding.hsp, object_doing_colliding.bbox_bottom) != 0) {
 	if (object_doing_colliding.hsp > 0) {
 		object_doing_colliding.x = object_doing_colliding.x - (object_doing_colliding.x % 16) + 15 - (object_doing_colliding.bbox_right - object_doing_colliding.x);	
 	}

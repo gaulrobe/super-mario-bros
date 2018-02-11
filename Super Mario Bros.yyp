@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "7163d154-ef7a-42c2-bce4-f2d0f9c6e27c",
+            "Value": {
+                "id": "5d71844e-0b81-476c-985a-004ddcc5dbcf",
+                "resourcePath": "scripts\\register_mario_death\\register_mario_death.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7573a93e-4fce-416b-be6b-2a8fe29aace4",
             "Value": {
                 "id": "026c66b5-f2bf-4a0d-bfce-b45b7758bcf0",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "88eae9c3-8b81-4c44-9050-2e91028ab6fa",
+            "Value": {
+                "id": "d3709c06-6137-4146-887f-5c130302511d",
+                "resourcePath": "views\\88eae9c3-8b81-4c44-9050-2e91028ab6fa.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "88ede186-953c-4808-9275-058d3883a607",
             "Value": {
                 "id": "3d162d88-1996-45cc-9777-bc3871bf2b31",
@@ -431,6 +447,14 @@
             }
         },
         {
+            "Key": "92d60126-2b95-4532-bc72-95171c195cdd",
+            "Value": {
+                "id": "1728c4ce-1bea-467f-b6ce-9c5060eca6db",
+                "resourcePath": "scripts\\register_room_bottom_collision\\register_room_bottom_collision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "943e9d27-d8b8-4351-8551-1cbfb997a232",
             "Value": {
                 "id": "6af9cb96-2865-47e5-8ba9-65f5600aafa7",
@@ -483,6 +507,14 @@
             "Value": {
                 "id": "6360f1fe-1e34-4274-aba0-c7c2c39d09a1",
                 "resourcePath": "views\\9feedf5d-4dd6-4223-add7-7dc45de05a7f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a3d07d9c-788b-4ba7-a46c-83bc6f422ae1",
+            "Value": {
+                "id": "4c9641d5-83fb-4449-ba71-dc36edb19945",
+                "resourcePath": "views\\a3d07d9c-788b-4ba7-a46c-83bc6f422ae1.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -801,6 +833,8 @@
         "498de6d2-7f02-48bc-ad0c-1d4f92fa07fe",
         "a3f9ee3c-063a-489e-b9ab-fb8b7ebf1662",
         "e4009219-6e59-4e26-a917-e4abe5f0ba53",
+        "7163d154-ef7a-42c2-bce4-f2d0f9c6e27c",
+        "92d60126-2b95-4532-bc72-95171c195cdd",
         "c13840c6-53eb-4891-a813-311114b53ce4",
         "2a41c3a5-af0c-4873-bbe1-9d46982d3ee0"
     ],

@@ -18,11 +18,7 @@ if (vsp == 0) {
 vsp = vsp + grav;
 
 if (state == states.dead) {
-	if (!death_sound) {
-		audio_play_sound(mario_dies, 0, false);
-		death_sound = true;
-	}
-	sprite_index = mario_dead;
+	register_mario_death(self);
 }
 else {
 	// Handle jumping
