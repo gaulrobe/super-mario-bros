@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00932239-a7ed-4bf3-8f79-af1b1cb69bc4",
+            "Value": {
+                "id": "badbecaf-4524-4417-9258-73654fae29e6",
+                "resourcePath": "scripts\\enemy_move_when_in_view\\enemy_move_when_in_view.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "02e823c5-a337-4b58-b1dd-633843d905e9",
             "Value": {
                 "id": "a2b7eab3-3202-4efc-90d9-6ebfa0e3345f",
@@ -816,6 +824,7 @@
         "4e0d73a7-c467-42a7-b395-f4a23bc4bdc6",
         "498de6d2-7f02-48bc-ad0c-1d4f92fa07fe",
         "a3f9ee3c-063a-489e-b9ab-fb8b7ebf1662",
+        "00932239-a7ed-4bf3-8f79-af1b1cb69bc4",
         "e4009219-6e59-4e26-a917-e4abe5f0ba53",
         "7163d154-ef7a-42c2-bce4-f2d0f9c6e27c",
         "c13840c6-53eb-4891-a813-311114b53ce4",

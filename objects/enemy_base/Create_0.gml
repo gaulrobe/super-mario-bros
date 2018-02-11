@@ -2,4 +2,5 @@
 
 event_inherited();
 
-hsp = -(spd / 5);
+hsp = 0;
+in_view = false;

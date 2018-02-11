@@ -5,7 +5,8 @@
     "name": "706c6ee1-dc07-4b7e-8385-29a7734f1696",
     "children": [
         "498de6d2-7f02-48bc-ad0c-1d4f92fa07fe",
-        "a3f9ee3c-063a-489e-b9ab-fb8b7ebf1662"
+        "a3f9ee3c-063a-489e-b9ab-fb8b7ebf1662",
+        "00932239-a7ed-4bf3-8f79-af1b1cb69bc4"
     ],
     "filterType": "GMScript",
     "folderName": "Enemy",
